@@ -1,23 +1,40 @@
 .App {
-  text-align: center;
   background-color: rgb(255, 213, 252);
-  height: 1000px;
-
+  text-align: center;
 }
 
-.App-header {
-  background-color: #222;
-  height: 70px;
+.App-header{
+  color: white;
+  text-align: center;
   padding: 20px;
+  font-size: 50px;
+}
+
+img{
+  width: 400px;
+}
+
+button{
+  margin-bottom: 100px;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgb(253, 158, 247);
+  border-width: 0;
   color: white;
 }
 
-.App-title {
-  font-size: 1.5em;
+.description{
+  background-color: rgb(138, 192, 253);
+  width: 400px;
+  height: 50px;
+  text-align: center;
+  margin: auto;
+  border-radius: 10px;
+  color:white;
 }
 
-.App-intro {
-  font-size: large;
+h4{
+  padding: 15px;
+  font-weight: 350;
+  font-size: larger;
 }
-
-

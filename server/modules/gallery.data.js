@@ -6,12 +6,12 @@ const galleryItems = [
   { id: 2,
     path: "images/2.png",
     description:
-      "This is my little sister and I. She is one of my favorite people in the world.",
+      "This is my little sister and I.",
     likes: 0 },
   { id: 3,
     path: "images/3.png",
     description:
-      "When I can I try to be creative. This is a digital art piece I did a while back for a commision.",
+      "A digital art piece I did a while back.",
     likes: 0 },
   { id: 4, 
     path: "images/4.png", 
@@ -20,27 +20,27 @@ const galleryItems = [
   { id: 5,
     path: "images/5.png",
     description:
-      "I love tattoos and have several. I think they can be an amazing form of self expression. ",
+      "I love tattoos and have several.",
     likes: 0 },
   { id: 6,
     path: "images/6.png",
     description:
-      "My fiancé and I; he's also one of my favorite people in the world.",
+      "My fiancé and I!",
     likes: 0 },
   { id: 7,
     path: "images/7.png",
     description:
-      "My professional experience is pretty varied. I like trying new things, like product photography here.",
+      "I like trying new things, like photography.",
     likes: 0 },
   { id: 8,
     path: "images/8.png",
     description:
-      "I love traveling. This picture was taken in Lisbon where I studied in 2018. I have been back once since.",
+      "I love traveling! (Taken in Lisbon)",
     likes: 0  },
   { id: 9,
     path: "images/9.png",
     description:
-      "A logo I made for the travel/tech/lifestyle blog I eventually want to make. We'll see if it happens!",
+      "A logo I made for the blog I want to make.",
     likes: 0  },
 ];
 
