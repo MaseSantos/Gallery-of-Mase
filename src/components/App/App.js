@@ -11,7 +11,6 @@ class App extends Component {
   componentDidMount() {
     console.log("Page loaded");
     this.getGallery();
-    this.addLike();
   }
 
   getGallery = () => {
@@ -31,21 +30,21 @@ class App extends Component {
       });
   };
 
-  addLike = () => {
-    console.log("Firing off PUT Gallery");
-    let id = this.state.galleryArray.id;
-    axios({
-      method: "PUT",
-      url: "/gallery/like/" + id
-    })
-      .then((response) => {
-        this.getGallery();
-        console.log('PUT done, response:', response)
-      })
-      .catch((error) => {
-        console.log("PUT error", error);
-      });
-  };
+  // addLike = () => {
+  //   console.log("Firing off PUT Gallery");
+  //   let id = this.state.galleryArray.id;
+  //   axios({
+  //     method: "PUT",
+  //     url: "/gallery/like/" + id
+  //   })
+  //     .then((response) => {
+  //       this.getGallery();
+  //       console.log('PUT done, response:', response)
+  //     })
+  //     .catch((error) => {
+  //       console.log("PUT error", error);
+  //     });
+  // };
 
   render() {
     return (
@@ -56,7 +55,8 @@ class App extends Component {
           </header>
           <br />
           <GalleryList galleryArray={this.state.galleryArray} 
-          addLikeFunction={this.addLike}/>
+          // addLikeFunction={this.addLike}
+          />
         </div>
       </>
     );
