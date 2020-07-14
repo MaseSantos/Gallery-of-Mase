@@ -11,7 +11,8 @@ class GalleryList extends Component {
         return (
         <div>
             {this.props.galleryArray.map((item, index) => 
-            <GalleryItem thisPic={ item } key={ index }/>)}
+            <GalleryItem
+            thisPic={ item } key={ index }/>)}
         </div>
         );
     }
