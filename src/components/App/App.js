@@ -56,9 +56,9 @@ class App extends Component {
             <h1 className="header-odd">Gallery of Mase</h1>
           </div>
           <br />
-          <GalleryList galleryArray={this.state.galleryArray} 
-          // addLikeFunction={this.addLike}
-          />
+            <GalleryList galleryArray={this.state.galleryArray}
+            // addLikeFunction={this.addLike}
+            />
         </div>
       </>
     );

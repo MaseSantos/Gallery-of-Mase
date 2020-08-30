@@ -17,15 +17,13 @@ class GalleryItem extends Component {
 
   render() {
     return (
-        <>
-        <div onClick={this.toggleDescription}>
+        <div className="gallery-item" onClick={this.toggleDescription}>
             {( this.state.description ?
             <img alt={this.props.thisPic.description} src={this.props.thisPic.path}></img> :
             <div className="description"><h4>{this.props.thisPic.description}</h4></div>)}
-        </div>
-        <p><i>Likes: {this.props.thisPic.likes}</i></p>
+          <p className="likes-num">Likes: {this.props.thisPic.likes}</p>
         <button><b>LIKE</b></button>
-        </>
+        </div>
     );
   }
 }
