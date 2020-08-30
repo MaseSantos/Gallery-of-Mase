@@ -50,9 +50,11 @@ class App extends Component {
     return (
       <>
         <div className="App">
-          <header className="App-header">
-            <h1>About Mase</h1>
-          </header>
+          <div className="title-div">
+            <h1 className="header-odd">Gallery of Mase</h1>
+            <h1 className="header-even">Gallery of Mase</h1>
+            <h1 className="header-odd">Gallery of Mase</h1>
+          </div>
           <br />
           <GalleryList galleryArray={this.state.galleryArray} 
           // addLikeFunction={this.addLike}

@@ -9,7 +9,7 @@ class GalleryList extends Component {
 
     render() {
         return (
-        <div>
+        <div className="gallery-list">
             {this.props.galleryArray.map((item, index) => 
             <GalleryItem
             thisPic={ item } key={ index }/>)}

@@ -1,14 +1,14 @@
-.App {
-  background-color: rgb(255, 213, 252);
+body{
+  background-color: #FFE8EB;
   text-align: center;
 }
 
-.App-header{
-  color: white;
+/* .App-header{
+  
   text-align: center;
   padding: 20px;
   font-size: 50px;
-}
+} */
 
 img{
   width: 400px;
@@ -18,14 +18,19 @@ img{
 button{
   margin-bottom: 100px;
   border-radius: 5px;
-  padding: 10px;
-  background-color: rgb(253, 158, 247);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #42C3A9;
   border-width: 0;
   color: white;
+  font-size: 20px;
 }
 
+/* Image Descriptions on Card Flip  */
 .description{
-  background-color: rgb(138, 192, 253);
+  background-color: #C4A1C1;
   width: 400px;
   height: 400px;
   display: flex;
@@ -36,8 +41,34 @@ button{
   color:white;
 }
 
+/* Site Title */
+.header-odd{
+  color: #F0C92D;
+}
+
+.header-even{
+  color: #F69D26;
+}
+
+h1{
+  margin: 0px;
+  font-size: 70px;
+  /* font-style: italic; */
+}
+
+.title-div{
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
 h4{
   padding: 15px;
   font-weight: 350;
   font-size: larger;
+}
+
+/* Image Alignment */
+
+.gallery-list{
+  
 }
