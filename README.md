@@ -2,7 +2,8 @@
 
 ### Built By:
 Mase Santos
->Duration: Weekend Sprint
+### Duration: 
+Weekend Sprint
 
 ## Application Overview
 
