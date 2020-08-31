@@ -1,9 +1,24 @@
-# Project Name
+#   Gallery of Mase : React Photo Gallery
 
-[Project Instructions](./INSTRUCTIONS.md), this line may be removed once you have updated the README.md
+### Built By:
+Mase Santos
+>Duration: Weekend Sprint
 
-## Description
+## Application Views
+![Gallery of Mase](./GalleryofMaseDemo.gif)
 
-Your project description goes here. What problem did you solve? How did you solve it?
+## Application Overview
 
-Additional README details can be found [here](https://github.com/PrimeAcademy/readme-template/blob/master/README.md).
+
+## Installation
+
+
+
+## Usage
+
+
+## Technologies Used
+
+
+## Acknowledgement
+Thank you to my instructors [Mary](https://github.com/mbMosman) and [Dev](https://github.com/devjanaprime), as well as the Paxos cohort at [Prime Digital Academy!](www.primeacademy.io)! 
