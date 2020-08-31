@@ -5,6 +5,7 @@ Mase Santos
 >Duration: Weekend Sprint
 
 ## Application Overview
+
 This application serves as a gallery page to share pictures of my interests, hobbies, and skillset. Visitors can click on an image to see a description and use a button to "like" an image should they choose. By viewing the content of this application, visitors can get to know me beyond my resume!
 
 ## Application Views
