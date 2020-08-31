@@ -5,7 +5,8 @@ Mase Santos
 >Duration: Weekend Sprint
 
 ## Application Views
-![Gallery of Mase](./GalleryofMaseDemo.gif)
+![Gallery of Mase Still No.1](./View_1.png)
+![Gallery of Mase Still No.1](./View_2.png)
 
 ## Application Overview
 
