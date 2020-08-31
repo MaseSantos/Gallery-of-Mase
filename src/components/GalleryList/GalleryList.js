@@ -12,6 +12,7 @@ class GalleryList extends Component {
         <div className="gallery-list">
                     {this.props.galleryArray.map((item, index) =>
                         <GalleryItem
+                            getGallery={this.props.getGallery}
                             thisPic={item} key={index} />)}
         </div>
         );

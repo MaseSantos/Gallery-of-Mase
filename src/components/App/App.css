@@ -1,6 +1,11 @@
 body{
-  background-color: #FFE8EB;
+  /* background-color: #FFE8EB; */
   text-align: center;
+  background-image: radial-gradient(#fff3f5 20%, transparent 20%),
+      radial-gradient(#ffeef0 20%, transparent 20%);
+  background-color: #FFE8EB;
+  background-position: 0 0, 50px 50px;
+  background-size: 100px 100px;
 }
 
 /* .App-header{
@@ -12,7 +17,7 @@ body{
 
 img{
   width: 300px;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 button{
@@ -22,41 +27,49 @@ button{
   padding-bottom: 10px;
   padding-left: 30px;
   padding-right: 30px;
-  background-color: #aec8df;
+   background-color: #ffb9dd;
   border-width: 0;
   color: white;
   font-size: 20px;
 }
 
 /* Image Descriptions on Card Flip  */
-.description{
-  background-color:  #F14F39;
+.card{
+  background-color:  #ff3d2f;
   width: 270px;
   height: 270px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  border-radius: 10px;
+  border-radius: 5px;
   border-style: solid;
   border-color:#FEC2C9 ;
   border-width: 15px;
   color:white;
 }
 
+.details{
+  margin-top: 25%;
+  margin-bottom: 10%;
+}
+
+.description{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 /* Site Title */
 .header-odd{
-  color: #F0C92D;
+  color: #ffc400;
+  text-shadow: 3px 3px #ff9100;
+  opacity: 0.7;
 }
 
 .header-even{
-  color: #F69D26;
+  color: #ff9100;
+  text-shadow: 3px 3px #ffc400;
 }
 
 h1{
   margin: 0px;
-  font-size: 70px;
-  /* font-style: italic; */
+  font-size: 60px;
 }
 
 .title-div{
@@ -66,7 +79,7 @@ h1{
 
 h4{
   font-weight: 350;
-  font-size: larger;
+  font-size: large;
 }
 
 /* Image Alignment */
@@ -82,7 +95,6 @@ h4{
 }
 
 .likes-num{
-  color: #C4A1C1;
-  font-weight: 600;
-  font-size: larger;
+  margin: 20px;
+  /* position: absolute; */
 }
